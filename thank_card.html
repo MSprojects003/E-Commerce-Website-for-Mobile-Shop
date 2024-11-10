@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="icon" href="pictures/icon.png">
+</head>
+<body>
+    
+
+    <div class="container" id="popup">
+        <div class="popup" id="popup">
+            <img src="./check-mark-icon-right-side-with-white-background.jpg" alt="">
+            <h2>thank you</h2>
+            <p>you details have been succesfully added</p>
+            <button> <a href="contact.php">Go Back</a> </button>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            let popup = document.getElementById("popup");
+            popup.classList.toggle("open-card");
+        };
+    </script>
+    
+</body>
+</html>
+<style>
+   
+   
+    .open-card{
+           
+           transform: scale(10.0);
+           transition:0.6s;
+            
+          
+         
+    }
+     
+</style>
+<style>
+     body{
+        margin:0;
+        padding:0;
+    }
+    .container{
+        width:100% auto;
+        height:100vh;
+        background-color:rgba(53, 49, 49, 0.687);
+       
+    }
+    .popup{
+        width:400px auto;
+        background:linear-gradient(10deg,white,rgb(219, 170, 170),red);
+        border-radius:6px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%) scale(0.1);
+        text-align: center;
+        padding:0 30px 30px;
+        color:#333;
+        
+         
+         
+    }
+    img{
+        width:200px auto; 
+        height:20vh;
+        clip-path: circle(30%);
+        background: red;
+        margin-top:-60px;
+        border:2px solid black;
+        
+         
+    }
+    button{
+        width:100%;
+        border:none;
+        background-color:black;
+        padding:10px;
+        cursor: pointer;
+    }
+    button a{
+        text-decoration: none;
+        color:white;
+        font-size:20px;
+        font-weight:bold;
+    }
+     
+ button:hover{
+    background-color:white;
+    box-shadow:0px 3px 5px black;
+     
+ }
+ button:hover a{
+    color:red;
+ }
+</style>

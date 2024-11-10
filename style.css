@@ -1,0 +1,156 @@
+/* about page css*/
+
+.nav-bar-1{
+    background: linear-gradient(rgb(0,0,0,0.8),white)!important;
+  }
+  .nav-bar-2{
+    background: rgba(57, 73, 147, 0.099)!important;
+    position:sticky;
+     top:85px;
+      
+    
+  }
+  carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+}
+ 
+ 
+.card .img img{
+     margin-top:20px;
+     border-radius:50%;
+     border:none !important;
+      transform:scale(0.8);
+    
+}
+.carousel .card {
+    background:linear-gradient(45deg,black,rgba(0, 0, 0, 0.94),rgba(3, 2, 2, 0.84),rgba(3, 1, 1, 0.751),rgb(0, 0, 0)) !important;
+    color: white;
+}
+.card span{
+    color: red !important;
+}
+.image-slide-container-2 h1{
+    color:white !important;
+    font-weight: bold;
+    padding:10px;
+    font-family: 'popins',sans-serif;
+    background:linear-gradient(100deg,black,rgb(0,0,0,0.4),rgb(0,0,0,0));
+    
+}
+
+
+
+/*-----------*/
+
+ /* style for following this hirachy*/
+ .about{
+    width:100% ;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    margin-top:20px;
+    
+   
+    
+    justify-content: center;
+}
+ 
+.carousel-fade .carousel-item.active{
+  height:auto;
+}
+ 
+
+.about .content img{
+height:50vh auto;
+width:300px ;
+max-width: 100%;
+border-radius: 20px;
+}
+.text{
+width:550px;
+max-width: 100%;
+padding:0 10px;
+ 
+}
+.content{
+width:1280px;
+max-width: 95%;
+margin:0 auto;
+margin-bottom:50px;
+margin-top: auto;
+display: flex;
+padding:10px;
+padding-top:30px;
+padding-bottom:30px;
+background: black;
+flex-wrap: wrap;
+align-items:center;
+color:white;
+justify-content: space-around;
+border-top:10px solid transparent;
+}
+.text h1{
+text-transform: capitalize;
+font-size: 55px auto;
+margin-bottom: 20px;
+}
+.text h5{
+text-transform: capitalize;
+font-size: 25px;
+margin-bottom: 20px;
+}
+.text p{
+font-size:18px;
+line-height: 28px;
+}
+.hirachy{
+color:red;
+font-weight: bold;
+}
+
+
+h1.h1-1{
+    color:black;
+    text-shadow: 2px 2px #ff0000;
+    text-align: center;
+    font-size:50px;
+    
+    font-weight:bold;
+}
+p.paragraph-1{
+     margin-top:100px;
+    text-align: center;
+    font-weight:bold;
+     margin-bottom:5%;
+     font-family: 'popins',sans-serif;
+     width:100%;
+    
+    
+    
+}
+ img.img-thumbnail{
+    width:150px;
+    height:100px;
+    margin-left: 45px;
+    margin-right: 45px;
+ }
+ 
+
+
+
+/*--------*/
+.about h2{
+  color:red;
+}
+@media (max-width:600px) {
+  .text p.h2-2{
+    font-size:10px;
+    
+  }
+}
+ 
+  
+ 
